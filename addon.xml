@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.currencyconverter"
+       name="CurrencyConverter"
+       version="0.1.0"
+       provider-name="Alessandro Rossi">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="script.module.simplejson" version="2.0.9"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8" />
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A client for currencies conversion</summary>
+    <summary lang="it">Un client per la conversione delle valute</summary>
+    <description lang="en">A client for currencies conversion.</description>
+    <description lang="it">Un client per la conversione delle valute.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
